@@ -193,21 +193,33 @@ body{
                 47€ <span class="text-base font-normal text-gray-400">IVA incl.</span>
             </div>
 
-            <form class="flex flex-col md:flex-row gap-4 justify-center">
-
-                <input
-                    type="email"
-                    required
-                    placeholder="Tu email profesional"
-                    class="w-full md:flex-1 px-6 py-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 text-lg"
+            <form
+                name="waitlist"
+                method="POST"
+                data-netlify="true"
+                action="/gracias"
+                class="flex flex-col md:flex-row gap-4 justify-center"
                 >
 
-                <a href="https://buy.stripe.com/dRmeVc1WHgEo4zKcNpbfO0l"
-                   class="bg-black text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-600 transition whitespace-nowrap">
-                   Unirme ahora
-                </a>
+                    <!-- REQUIRED hidden input -->
+                    <input type="hidden" name="form-name" value="waitlist">
 
-            </form>
+                    <input
+                        type="email"
+                        name="email"
+                        required
+                        placeholder="Tu email profesional"
+                        class="w-full md:flex-1 px-6 py-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 text-lg"
+                    >
+
+                    <button
+                        type="submit"
+                        class="bg-black text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-600 transition whitespace-nowrap">
+                        Unirme ahora
+                    </button>
+
+                </form>
+
 
         </div>
 
