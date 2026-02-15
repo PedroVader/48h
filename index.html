@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>TuWebEn48h.es | Web profesional en 48h por 199€</title>
+<meta name="description" content="Creamos tu web profesional en 48 horas. Diseño moderno, optimizada para móvil y sin cuotas mensuales. Pago único desde 199€."/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+body{
+    font-family:'Inter',sans-serif;
+}
+
+/* GRID BACKGROUND PREMIUM */
+.grid-bg{
+    position:absolute;
+    inset:0;
+    background-image:
+        linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+    background-size:60px 60px;
+    mask-image: radial-gradient(circle at center, black 30%, transparent 80%);
+    animation:gridMove 40s linear infinite;
+}
+
+@keyframes gridMove {
+    from { transform: translateY(0px); }
+    to { transform: translateY(60px); }
+}
+</style>
+
+</head>
+
+<body class="bg-white text-gray-900">
+
+<!-- HERO -->
+<header class="relative min-h-screen flex items-center justify-center overflow-hidden bg-black text-white">
+
+    <!-- GRID -->
+    <div class="grid-bg opacity-40"></div>
+
+    <!-- GRADIENT -->
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(59,130,246,0.25),transparent_40%),radial-gradient(circle_at_80%_70%,rgba(99,102,241,0.25),transparent_40%)]"></div>
+
+    <!-- SVG LEFT -->
+    <svg class="absolute -top-40 -left-40 w-[600px] opacity-30 blur-3xl" viewBox="0 0 600 600">
+        <circle cx="300" cy="300" r="300" fill="url(#grad1)" />
+        <defs>
+            <linearGradient id="grad1">
+                <stop offset="0%" stop-color="#3B82F6"/>
+                <stop offset="100%" stop-color="#6366F1"/>
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <!-- SVG RIGHT -->
+    <svg class="absolute -bottom-40 -right-40 w-[600px] opacity-30 blur-3xl" viewBox="0 0 600 600">
+        <circle cx="300" cy="300" r="300" fill="url(#grad2)" />
+        <defs>
+            <linearGradient id="grad2">
+                <stop offset="0%" stop-color="#6366F1"/>
+                <stop offset="100%" stop-color="#3B82F6"/>
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <!-- NAV -->
+    <nav class="absolute top-0 w-full z-20">
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-8">
+            <div class="text-2xl font-black italic uppercase tracking-tight">
+                tuweben48h<span class="text-blue-500">.es</span>
+            </div>
+
+            <a href="#precios"
+               class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full text-sm font-bold transition">
+               Empezar
+            </a>
+        </div>
+    </nav>
+
+    <!-- CONTENT -->
+    <div class="relative z-10 text-center max-w-5xl px-6">
+
+        <span class="inline-block bg-blue-600 text-white text-xs font-black px-4 py-1 rounded-full tracking-widest mb-8">
+            Oferta limitada · 50% descuento
+        </span>
+
+        <h1 class="text-5xl md:text-8xl font-black leading-[0.9] mb-8">
+            Tu web profesional<br>lista en 48 horas
+        </h1>
+
+        <p class="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto mb-12">
+            Creamos tu presencia online sin complicaciones.
+            <span class="text-white font-bold underline decoration-blue-500">
+                199€ + IVA · Pago único
+            </span>
+        </p>
+
+        <div class="flex flex-col md:flex-row gap-6 justify-center">
+
+            <a href="https://buy.stripe.com/28EfZg6cX0Fq3vG7t5bfO0k"
+               class="bg-white text-black px-10 py-5 rounded-2xl font-black text-xl hover:bg-blue-500 hover:text-white transition transform hover:scale-105">
+               QUIERO MI WEB
+            </a>
+
+            <a href="#infoproducto"
+               class="bg-white/10 backdrop-blur border border-white/20 text-white px-10 py-5 rounded-2xl font-bold text-xl hover:bg-white/20 transition">
+               Acceso IA
+            </a>
+
+        </div>
+
+        <p class="text-gray-400 text-sm mt-8 animate-pulse">
+            Quedan 2 plazas esta semana
+        </p>
+
+    </div>
+
+</header>
+
+
+<!-- BENEFICIOS -->
+<section class="py-28 px-6 bg-white">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
+
+        <div class="p-10 rounded-3xl bg-gray-50">
+            <h3 class="text-2xl font-black mb-4">Entrega en 48h</h3>
+            <p class="text-gray-600">Tu web lista en tiempo récord.</p>
+        </div>
+
+        <div class="p-10 rounded-3xl bg-gray-50 border-2 border-blue-100">
+            <h3 class="text-2xl font-black mb-4">Optimizada para móvil</h3>
+            <p class="text-gray-600">Diseño rápido y preparado para captar contactos.</p>
+        </div>
+
+        <div class="p-10 rounded-3xl bg-gray-50">
+            <h3 class="text-2xl font-black mb-4">Pago único</h3>
+            <p class="text-gray-600">Sin cuotas ni permanencias.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- PRECIOS -->
+<section id="precios" class="py-28 px-6 bg-white">
+    <div class="max-w-lg mx-auto bg-black text-white rounded-[3rem] p-12 shadow-2xl text-center">
+
+        <p class="text-blue-500 font-black text-xs uppercase tracking-widest mb-4">
+            Pack Todo Incluido
+        </p>
+
+        <h2 class="text-4xl font-black mb-8">Web Profesional</h2>
+
+        <p class="text-3xl text-gray-500 line-through">399€</p>
+        <p class="text-7xl font-black mb-10">
+            199€ <span class="text-xl text-gray-500">+ IVA</span>
+        </p>
+
+        <a href="https://buy.stripe.com/28EfZg6cX0Fq3vG7t5bfO0k"
+           class="block bg-blue-600 hover:bg-blue-700 py-5 rounded-2xl font-black text-2xl transition">
+            RESERVAR PLAZA
+        </a>
+
+    </div>
+</section>
+
+
+<!-- WAITLIST IA -->
+<section id="infoproducto" class="bg-gray-50 py-28 px-6">
+    
+    <div class="max-w-3xl mx-auto text-center">
+
+        <h2 class="text-4xl md:text-6xl font-black mb-6">
+            Accede antes que nadie
+        </h2>
+
+        <p class="text-xl text-gray-600 mb-12">
+            Aprende el sistema exacto que usamos para captar clientes automáticamente con IA.
+        </p>
+
+        <div class="bg-white rounded-[2.5rem] shadow-xl p-12 border border-gray-100">
+
+            <div class="text-5xl font-black mb-8">
+                47€ <span class="text-base font-normal text-gray-400">IVA incl.</span>
+            </div>
+
+            <form class="flex flex-col md:flex-row gap-4 justify-center">
+
+                <input
+                    type="email"
+                    required
+                    placeholder="Tu email profesional"
+                    class="w-full md:flex-1 px-6 py-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 text-lg"
+                >
+
+                <a href="https://buy.stripe.com/dRmeVc1WHgEo4zKcNpbfO0l"
+                   class="bg-black text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-600 transition whitespace-nowrap">
+                   Unirme ahora
+                </a>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer class="py-14 text-center border-t text-sm text-gray-400">
+    © 2026 <strong>Fast Horizons S.L.</strong> · Todos los derechos reservados
+</footer>
+
+</body>
+</html>
